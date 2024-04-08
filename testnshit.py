@@ -1,42 +1,22 @@
 '''
-mport random
-
-options = ("rock", "paper", "scissors")
-running = True
-
-while running:
-
-    player = None
-    computer = random.choice(options)
-
-    while player not in options:
-        player = input("Enter a choice (rock, paper, scissors): ")
-
-    print(f"Player: {player}")
-    print(f"Computer: {computer}")
-
-    if player == computer:
-        print("It's a tie!")
-    elif player == "rock" and computer == "scissors":
-        print("You win!")
-    elif player == "paper" and computer == "rock":
-        print("You win!")
-    elif player == "scissors" and computer == "paper":
-        print("You win!")
-    else:
-        print("You lose!")
-
-    if not input("Play again? (y/n): ").lower() == "y":
-        running = False
-
-print("Thanks for playing!")
+step1: create 2 lists: uniqueList and duplicateList
+step 2: for i in originalList:
+            if i not in uniqueList:
+                uniqueList.append(i)
+            elif i not in duplicateList:
+                duplicateList.append(i)
+step 3: for j in originalList:
+            if j not in duplicateList:
+                print(j)
+            
 '''
 
-count = 1
-history = {}
+A = [9,3,9,3,9,7,9]
+B = []
 
-while count < 5:
-    history['round {}'.format(count)] = 'a'
-    count +=1
-    print(history)
+for i in A:
+    n = A.count(i)
+    if n < 2:
+        print(i)
+       
 

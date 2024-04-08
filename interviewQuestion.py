@@ -20,8 +20,6 @@ for i in A:
             print(i,j)
             usedValues.append(i)
 
-        # else:
-        #     continue
 
 
 print(usedValues)
