@@ -1,5 +1,7 @@
-x = 1
-y = 2
-x+= y
+import time
 
-print (x)
+start = int(time.time())
+
+stop = int(time.time())
+
+print(stop - start)

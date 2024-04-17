@@ -1,0 +1,7 @@
+step 1: convert integer to binary
+step 2: convert binary to string
+step 3: split string into a list using 1 as a delimiter
+step 4: if there's a binary gap determine the maximum number of zeros
+step 5: return length of longest binary gap
+
+
