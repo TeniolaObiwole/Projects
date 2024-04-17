@@ -51,5 +51,4 @@ def play():
 
     
 if __name__ == '__main__':
-    #play()
-    print([0]*20)
+    play()
