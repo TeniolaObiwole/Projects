@@ -1,0 +1,151 @@
+So tomorrow, the assignment is to build a phone book in python.
+[4/17, 11:26 PM] Obafemi Ogunkola: So basically the requirements are this. 
+Build a phoneboook that allows a user to create update, store and delete contacts , each contacts can contain multiple phone numbers and a single email, name , surname and work place,
+[4/17, 11:27 PM] Obafemi Ogunkola: For now we will not be using databases so save to a text file, do not use any external libraries ie no pandas no matplotlib.
+[4/17, 11:28 PM] Obafemi Ogunkola: You will also create a dummy login, where different users can have different phonebooks.
+
+pseudocode
+
+phonebook structure
+the phonebook will be a dictionary of dictionaries
+phonebook:{
+contact1 : {
+name : c1name, 
+surname : c1surname, 
+phoneNumberOne : c1phoneNumberOne, 
+phoneNumberTwo : c1phoneNumberTwo, 
+email : c1email, 
+workPlace : c1workPlace 
+    }
+
+contact2 : {
+name : c2name, 
+surname : c2surname, 
+phoneNumberOne : c2phoneNumberOne, 
+phoneNumberTwo : c2phoneNumberTwo, 
+email : c2email, 
+workPlace : c2workPlace 
+    }
+
+contact3 : {
+name : c3name, 
+surname : c3surname, 
+phoneNumberOne : c3phoneNumberOne, 
+phoneNumberTwo : c3phoneNumberTwo, 
+email : c3email, 
+workPlace : c3workPlace 
+
+    }    
+}
+
+{'teniobiwole': {'name': 'teni', 'surname': 'obiwole', 'email': 'teni@gmail.com', 'work place': '25 mother st', 'phone number': [84739, 38349]}}
+create phonebook file
+
+create empty dictionary called phonebook.
+
+phone book function():
+
+create contact(phonebook : dict):
+    create empty variables: name, surname,email, workPlace,count(store number of phone numbers the user wishes to store).
+    create empty list: phoneNumber.
+    ask user for contact name, surname and work place and store in respective variables, create an error catch conditional
+    ask user how many numbers they wish to save and store that in count variable.
+    if count is equal to 1 ask the user for the phone number and append it to phone number list 
+    else, create a for loop using the count as the range and ask the user for the phone numbers and append it to the phone number list.
+    create empty dictionary using the name and surname concatenated & add to phonebook new dictionary created 
+    #add to new dictionary the name, surname, email, workPlace and phonenumbers
+   
+
+update contact(phonebook : dict):
+    create variable to store contact name to be updated
+    ask user to enter the contact name they wish to update
+    display prompt asking user what they wish to update.
+    1. contact name
+    2. contact surname
+    3. contact email
+    4. contact work place
+    5. contact phone number
+    {'teniobiwole': {'name': 'teni', 'surname': 'obiwole', 'email': 'teni@gmail.com', 'work place': '25 mother st', 'phone number': [84739, 38349]}}
+create phonebook file
+    if user selects 1:
+        create a for loop to access the user's name and update it and display it back to the user
+    elif user selects 2:
+        create a for loop to access the user's surname and update it and display it back to the user
+    elif user selects 3:
+        create a for loop to access the user's email and update it and display it back to the user
+    elif user selects 4:
+        create a for loop to access the user's work place and update it and display it back to the user
+    elif user selects 5:
+        create a for loop to access the user's phone number
+        if len(phone_number) == 1:
+            update it
+        else:
+            print message asking user which of the numbers they'd like to update.
+            using a for loop, print each phone number with an indentifier ('1.', phone number)
+            collect input from the user asking them to pick using the identifiers which phone number they'd like to update.
+            update the phone numbers and display it back to the user
+        
+    else: 
+        print incorrect selection
+
+delete contact(phonebook : dict):
+    create variable to store contact name of the contact they need to be deleted
+    ask user to enter the contact name they wish to delete
+    display prompt asking user what they wish to delete.
+    1. contact (this involves deleting the whole contact)
+    2. contact email
+    3. contact work place
+    4. contact phone number
+
+     if user selects 1:
+        create a for loop to access the user's name and delete the whole contact. 
+        print(user name deleted)
+    elif user selects 2:
+        create a for loop to access the user's surname and delete
+         print( contact surname deleted)
+    elif user selects 3:
+        create a for loop to access the user's email and delete
+         print(contact email deleted)
+    elif user selects 4:
+        create a for loop to access the user's work place and delete
+        print(contact workplace deleted)
+    elif user selects 5:
+        create a for loop to access the user's phone number
+        if len(phone_number) == 1:
+            delte it
+        else:
+            print message asking user which of the numbers they'd like to delete.
+            using a for loop, print each phone number with an indentifier ('1.', phone number)
+            collect input from the user asking them to pick using the identifiers which phone number they'd like to delete.
+            delete the phone number 
+            print(contact phone number deleted)
+        
+    else: 
+        print incorrect selection
+
+save to phonebook():
+    write to phonebook file and save new content.
+    
+    
+
+
+display the following options to the user and collect user input:
+1. to create contact, enter 1.
+2. update contact, enter 2.
+3. delete contact, enter 3.
+
+if user picks 1:
+    create contact(phonebook : dict)
+    save to phonebook()
+if user picks 2:
+    update contact(phonebook : dict)
+if user picks 3:
+    delete contact function(phonebook : dict)
+    
+
+
+problems
+if two contacts have the same name
+if the user enter incorrect information
+
+

@@ -45,7 +45,7 @@ def play(word):
                 print("You've guessed {} already.".format(guess))
             elif guess != word:
                 print('Incorrect guess')
-                guessed_word.append(guess)
+                guessed_words.append(guess)
                 incorrect_tries-=1
             else:
                 #print(word)

@@ -1,7 +1,5 @@
-import time
+item = 'bag'
+index = 1
 
-start = int(time.time())
-
-stop = int(time.time())
-
-print(stop - start)
+print('{}.'.format(index,item))
+# print(index,'.',item)
