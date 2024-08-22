@@ -1,0 +1,20 @@
+'''
+Create a variable count and assign to it 0
+Create a nested loop.
+Set the value of the outer loop to range(1, N+1).
+Create a while loop.
+while count is less than i of the outer loop, print the value of i.
+
+count = 0
+while count < i:
+    print(i, end = ' ')
+'''
+
+N = 5
+count = 0
+for i in range(1, N+1):
+    while count < i:
+        print(i, end = ' ')
+        count += 1
+    count = 0
+    print()     
