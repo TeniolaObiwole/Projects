@@ -32,6 +32,10 @@ Research exploring explainability and bias in AI models used for cancer diagnosi
 
 ---
 
+🧩 This repo also includes a few smaller projects where I practise data structures and algorithms through real-world challenges from platforms like LeetCode, codility and neetcode. It’s all about keeping my fundamentals sharp while building with purpose.
+
+---
+
 ## 🔧 Technical Skills  
 **Languages & Tools:** Python, R, Power BI, Excel, Azure ML, SHAP, Fairlearn, scikit-learn, NLTK  
 **Focus Areas:** Predictive Modelling, Machine Learning, NLP, Sports Analytics, XAI, Data Visualisation
