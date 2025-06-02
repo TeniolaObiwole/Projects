@@ -32,7 +32,7 @@ Research exploring explainability and bias in AI models used for cancer diagnosi
 
 ---
 
-🧩 This repo also includes a few smaller projects where I practise data structures and algorithms through real-world challenges from platforms like LeetCode, codility and neetcode. It’s all about keeping my fundamentals sharp while building with purpose.
+🧩 This repo also includes a few smaller projects where I practise data structures and algorithms through real-world challenges from platforms like LeetCode, Codility and Neetcode. It’s all about keeping my fundamentals sharp while building with purpose.
 
 ---
 
