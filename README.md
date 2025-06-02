@@ -8,16 +8,15 @@ I'm an aspiring data scientist passionate about turning real-world problems into
 
 ## 💼 Featured Projects
 
-### 🔵 F1 Performance Analysis  
+### 🔵 Red Bull F1 2024 Performance Analysis  
 **Tools:** Excel, Power BI  
-A data-driven evaluation of Sergio Pérez’s 2023–2024 race performance — comparing trends, team strategy, and performance against teammate Max Verstappen.  
-[📂 View Project](#)
+A data-driven evaluation of Sergio Pérez’s 2023–2024 race performance — comparing trends, team strategy, and performance against teammate Max Verstappen and other second drivers.  
 
 ---
 
 ### 💬 Sentiment Analysis – 2025 Miami Grand Prix  
 **Tools:** Python (NLTK, NRC Emotion Lexicon)  
-Used emotion detection and word frequency analysis to assess fan sentiment on Reddit during F1’s Miami GP merchandise launch.  
+Used emotion detection and word frequency analysis to assess fan sentiment on Reddit during F1’s Miami GP 2025 merchandise launch.  
 
 ---
 
@@ -28,8 +27,8 @@ Built classification and regression models to predict survival outcomes using SE
 ---
 
 ### ⚖️ Fairness in AI for Healthcare  
-**Tools:** Fairlearn, SHAP  
-Ongoing research exploring explainability and bias in AI models used for cancer diagnosis — as part of a cross-disciplinary, funded research project.  
+**Tools:** Fairlearn, SHAP, Lucid io
+Research exploring explainability and bias in AI models used for cancer diagnosis — as part of a cross-disciplinary, funded research project.  
 
 ---
 
@@ -38,7 +37,7 @@ Ongoing research exploring explainability and bias in AI models used for cancer 
 **Focus Areas:** Predictive Modelling, Machine Learning, NLP, Sports Analytics, XAI, Data Visualisation
 
 ---
-Shoutout to ChatGPT for helping me put my thoughts (and README files) together without losing my mind.
+Shout out to ChatGPT for helping me put my thoughts (and README files) together without losing my mind.
 
 ---
 
