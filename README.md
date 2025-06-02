@@ -41,6 +41,9 @@ Ongoing research exploring explainability and bias in AI models used for cancer 
 **Focus Areas:** Predictive Modelling, Machine Learning, NLP, Sports Analytics, XAI, Data Visualisation
 
 ---
+Shoutout to ChatGPT for helping me put my thoughts (and README files) together without losing my mind.
+
+---
 
 ## 📫 Let’s Connect  
 - [LinkedIn](https://www.linkedin.com/in/oluwateniolaobiwole)  
