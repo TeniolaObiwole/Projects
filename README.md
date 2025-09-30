@@ -19,6 +19,7 @@ Analysed the performance of Red Bull Racing's second driver against his teammate
 **Tools:** Python (NLTK, NRC Emotion Lexicon)  
 
 Engineered a Python-based NLP pipeline to analyse 3,211 Reddit comments on F1 merchandise drops. The project successfully quantified fan sentiment, finding that successful drops (e.g., Ferrari and McLaren) generated 42% positive sentiment, while negative reactions were directly correlated with keyword triggers like "price" and "limited stock," providing actionable insights for brand engagement. 
+
 ---
 
 ### Breast Cancer Mortality & Survival Prediction  
