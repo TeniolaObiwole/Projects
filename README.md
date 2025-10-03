@@ -1,6 +1,6 @@
 # Hi, I'm Teniola 🌼
 
-📍 Based in London | 🏎️ Team LH girlie | 🧠 XAI & Fairness 
+📍 Based in London | 🏎️ Team LH girlie | XAI & Fairness 
 
 I'm a recent MSc Data science graduate passionate about turning real-world problems into data-driven solutions. I enjoy analysing F1 data, building Financial predictive models, and exploring fairness in AI.
 
