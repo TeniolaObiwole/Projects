@@ -38,7 +38,7 @@ Collaborated with cross-disciplinary teams, including law students, in a funded 
 
 Customer Churn Analysis of a Telecommunications Company 
 
-Analysed customer data using Excel to identify high-risk segments, discovering a 40.61% churn rate among international plan users. Recommended targeted retention strategies and service improvements, guiding resource allocation towards high-impact customer groups. 
+Analysed 2094 rows of customer data using Excel to identify high-risk segments, discovering a 40.61% churn rate among international plan users. Recommended targeted retention strategies and service improvements, guiding resource allocation towards high-impact customer groups. 
 
 ---
 Financial Viability Analysis of Microprocessor Development for a Transport for London Contract 
