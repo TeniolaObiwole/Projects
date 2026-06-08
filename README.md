@@ -1,110 +1,107 @@
-# Hi, I'm Teniola 🌼
-
-📍 Based in London | 🏎️ Team LH girlie | XAI & Fairness 
-
-I'm a recent MSc Data science graduate passionate about turning real-world problems into data-driven solutions. I enjoy analysing F1 data, building Financial predictive models, and exploring fairness in AI.
+Hi! Welcome to Teniola's Github Project Repo!ᰔᩚ
+Recent ML Engineering Intern at a mobile game startup | MSc Data Science and Analytics | Based in London | Data Science, AI/ML and XAI
 
 ---
 
-## Featured Projects
+## Projects
 
-### Red Bull F1 2024 Performance Analysis  
-**Tools:** Excel, Power BI  
+### Red Bull F1 Driver Performance Analysis
+**Tools:** Excel, Power BI
 
-Analysed the performance of Red Bull Racing's second driver against his teammate and top-tier rivals using Excel and Power BI. The analysis provided a data-driven argument for a driver change, citing a significant drop in consistency post-mid-2023. This conclusion was supported by a final season tally of 138 points (compared to the 225-point average of other top four second drivers), 5 DNFs, and 8 races without points, highlighting the use of quantitative analysis to support high-stakes strategic decisions. 
-
----
-
-### Fan Sentiment Analysis of 2025 Miami Grand Prix Merchandise   
-**Tools:** Python (NLTK, NRC Emotion Lexicon)  
-
-Engineered a Python-based NLP pipeline to analyse 3,211 Reddit comments on F1 merchandise drops. The project successfully quantified fan sentiment, finding that successful drops (e.g., Ferrari and McLaren) generated 42% positive sentiment, while negative reactions were directly correlated with keyword triggers like "price" and "limited stock," providing actionable insights for brand engagement. 
+Used Excel and Power BI to benchmark Red Bull Racing's second driver against his teammate and the second drivers at each of the other top-four constructors across the 2024 season. The analysis built a data-driven case for a driver change, pointing to a marked and sustained decline in consistency from mid-2023 onwards. Key findings included a final season points tally of 138, against a 225-point average for comparable second drivers, alongside five DNFs and eight pointless race weekends.
 
 ---
 
-### Breast Cancer Mortality & Survival Prediction  
-**Tools:** Python (scikit-learn, pandas, matplotlib)  
+### Fan Sentiment Analysis of 2025 Miami Grand Prix Merchandise
+**Tools:** Python (NLTK, NRC Emotion Lexicon)
 
-Applied scikit-learn and pandas to a dataset of 48,935 patient records to build and evaluate machine learning models for breast cancer mortality and survival prediction. After tuning hyperparameters with GridSearchCV, a Logistic Regression model was selected as the most effective for identifying high-risk patients, achieving a 95.7% accuracy and a 94.1% F1-score. This project demonstrates the ability to optimize models and select clinically relevant solutions by prioritizing key metrics over raw accuracy. 
-
----
-
-### Quintin Hogg Trust Research Café AI, Law & Technology project on Bias and Transparency in AI for Cancer Diagnosis.
-**Tools:** Fairlearn, SHAP, Lucid io
-
-Collaborated with cross-disciplinary teams, including law students, in a funded research programme addressing bias and transparency in AI models for cancer diagnosis. Utilised tools such as Fairlearn and SHAP to identify and mitigate model bias, while exploring legal and technical solutions and frameworks to support the development of responsible and ethical AI in healthcare.  
+Built a Python NLP pipeline to analyse 3,211 Reddit comments on Formula 1 merchandise released around the 2025 Miami Grand Prix. Successful team drops, including Ferrari and McLaren, generated 42% positive sentiment, while negative reactions clustered consistently around keywords such as "price" and "limited stock". The findings offer actionable insight for brands and teams looking to refine merchandise release strategy and fan engagement.
 
 ---
 
-Customer Churn Analysis of a Telecommunications Company 
+### Breast Cancer Mortality and Survival Prediction
+**Tools:** Python (scikit-learn, pandas, matplotlib)
 
-Analysed 2094 rows of customer data using Excel to identify high-risk segments, discovering a 40.61% churn rate among international plan users. Recommended targeted retention strategies and service improvements, guiding resource allocation towards high-impact customer groups. 
-
----
-Financial Viability Analysis of Microprocessor Development for a Transport for London Contract 
-
-Evaluated the financial viability of launching a new microprocessor for a technology company seeking a Transport for London contract. Used Palisade's PrecisionTree for decision tree analysis and Expected Monetary Value calculations, and Excel Goal Seek for indifference analysis, to identify a 26.5% R&D success probability as the breakeven point for investment, providing a clear go/no-go threshold and risk management recommendations. 
-
----
-Sales Forecasting for a Retail Clothing Company 
-
-Built a regression model in Excel to forecast annual sales, identifying holiday promotions and time trends as key growth drivers. Delivered insights to optimise promotion timing and improve forecasting accuracy for future campaigns. 
-
----
-Supply Chain Optimisation for a Manufacturing Company 
-
-Developed a Linear Programming model using Excel Solver to minimise procurement costs while meeting demand. Found that the main production constraint was the limited availability of the largest bulk-sized components, impacting cost efficiency and delivery schedules, and proposed supplier diversification and demand management strategies to support growth. 
-
----
-Rihanna's Reddit Digital Footprint  
-
-Developed a Python-based NLP pipeline to analyze 999 Reddit comments, providing strategic insights for PR management. The analysis found that 50% of fan sentiment was positive, peaking on Tuesdays, and that authentic content consistently drove engagement while negative feedback was primarily tied to the demand for new music.
- 
----
-Deep Reinforcement Learning Trader for Micro-Capital Female Investors 
-
-Engineered and back tested a Deep Reinforcement Learning (DRL) trading model on 10 years of market data, designed to navigate the liquidity constraints of small-scale investors. The model achieved a 5.76% cumulative return over a 2-year period and a 2.65 Annualized Sharpe Ratio, outperforming a traditional buy-and-hold strategy and demonstrating its profitability and risk management capabilities. 
-
----
-A/B Testing for Conversion Rate Optimization 
-
-Analysed an e-commerce website's checkout page by using python to conduct a Chi-squared A/B test on a sample of 1,264 users. The test confirmed that a new layout was statistically more effective, increasing the conversion rate from 11.86% to 19%. This provided a data-driven recommendation to optimize the user experience and drive revenue. 
- 
----
-Attribution Modelling for Marketing Promotions 
-
-Analysed the effectiveness of a pizza company's marketing promotions by applying the Shapley attribution model using Excel. The analysis revealed that a free delivery offer contributed 43% of the conversion value, making it the most impactful promotion. This provided a data-driven recommendation for optimizing marketing spend and improving campaign ROI. 
+Built and evaluated a suite of machine learning models on 48,935 patient records to predict breast cancer mortality and survival outcomes. Following hyperparameter tuning with GridSearchCV, logistic regression emerged as the most clinically appropriate model, achieving 95.7% accuracy and a 94.1% F1-score. The project prioritised metric selection that reflects real-world risk identification rather than raw accuracy alone, demonstrating how model choice should be driven by clinical relevance.
 
 ---
 
-This repo also includes a few smaller projects where I practise data structures and algorithms through real-world challenges from platforms like LeetCode, Codility and Neetcode. It’s all about keeping my fundamentals sharp while building with purpose.
+### Bias and Transparency in AI for Cancer Diagnosis
+**Quintin Hogg Trust Research Cafe | AI, Law and Technology**
+**Tools:** Fairlearn, SHAP, Lucidio
+
+Took part in a funded cross-disciplinary research programme tackling bias and transparency in AI-assisted cancer diagnosis. Working alongside law students and other researchers, used Fairlearn and SHAP to identify and reduce model bias, and contributed to wider discussions on legal and technical frameworks for responsible AI deployment in healthcare settings.
 
 ---
 
-## Technical Skills  
-Programming & Data Analysis: Python (Pandas, NumPy, scikit-learn, statsmodels), R (dplyr, tidyr, ggplot2), Excel (Power Query, PivotTables, Solver). 
+### NHS Diabetes Patient Triage System
+**Tools:** Python (scikit-learn, SHAP)
 
-Data Visualization: Matplotlib, Seaborn, Plotly, ggplot2, Power BI. 
-
-Statistical & Predictive Modelling: GLMs, Time-series Forecasting, Monte Carlo Simulation (@RISK), A/B Testing (Bayesian Modelling), Variable Distribution Analysis, Correlation Analysis, Customer Churn Analysis, Regression Analysis, Forecasting. 
-
-Decision Making & Optimization: Decision Tree Analysis, Expected Monetary Value (EMV) Analysis, Indifference Analysis (Excel Goal Seek), Value of Perfect Information (VPI) Calculation, Linear Programming (Excel Solver), Optimization (Excel Solver), Sensitivity Analysis (Excel Solver). 
-
-Machine Learning: Decision Trees, Linear & Logistic Regression, K-Nearest Neighbors, Naive Bayes, Support Vector Machines (SVM), Random Forest, Gradient Boosting Machines, Data Preprocessing & Feature Engineering, Categorical Feature Encoding, Feature Scaling, Model Evaluation & Validation, Performance Metrics, Cross-Validation Techniques, Strategies for Handling Imbalanced Datasets, Deep Reinforcement Learning. 
-
-Data Management & Databases: SQL, Database Querying & Manipulation, Data Extraction & Loading (ETL), Data Cleaning & Transformation, Relational Databases, Joins, Subqueries, Indexing, Data Integrity, Stored Procedures. 
-
-Natural Language Processing (NLP): Text Analysis (NLTK, Regular Expressions), Sentiment Analysis, Emotion Detection (NRC Emotion Lexicon). 
-
-Simulation Modelling: Simul8, AnyLogic, Excel (Data Tables, Solver). 
-
-Cloud & AI Platforms: Microsoft Azure (Azure ML Studio, Cognitive Services, AI Fundamentals: Computer Vision, NLP, Generative AI, Conversational AI). 
-
-Algorithmic Trading & Financial Modelling: Python, TensorFlow, Stable-Baselines3, TA-Lib, yfinance, Alpha Vantage. 
-
+Developed during a hackathon, this triage application was designed to help the NHS schedule appointments for diabetes patients more efficiently. Built a Random Forest classification model to predict patient risk levels, then applied SHAP values to generate visual explanations of the model's decisions, ensuring predictions were interpretable and transparent for clinical staff.
 
 ---
 
-## 📫 Let’s Connect  
-- [LinkedIn](https://www.linkedin.com/in/oluwateniolaobiwole)  
-- 📧 teniobiwole@gmail.com  
+### Deep Reinforcement Learning Trader for Micro-Capital Female Investors
+**Tools:** Python (TensorFlow, Stable-Baselines3, TA-Lib, yfinance)
+
+Trained and backtested a deep reinforcement learning trading model on ten years of market data, specifically designed to address the liquidity constraints faced by small-scale investors. Over a two-year test period, the model achieved a cumulative return of 5.76% and an annualised Sharpe Ratio of 2.65, outperforming a buy-and-hold benchmark on both return and risk-adjusted performance.
+
+---
+
+### Optimised COVID-19 Reporting Database
+**Tools:** Python, SQL
+
+Designed and built a COVID-19 data warehouse using Python and SQL, structuring patient, vaccine, and quarantine data into a dimensional model to support analytical reporting. Created materialised views to pre-compute aggregations across five main tables, improving query performance and reducing data retrieval times for downstream reporting.
+
+---
+
+### A/B Testing for Conversion Rate Optimisation
+**Tools:** Python
+
+Ran a chi-squared A/B test on a sample of 1,264 users to evaluate the impact of a redesigned checkout page for an e-commerce platform. The new layout was found to be statistically more effective, lifting the conversion rate from 11.86% to 19%. The results provided a clear, evidence-based recommendation for rolling out the redesign and driving revenue growth.
+
+---
+
+### Attribution Modelling for Marketing Promotions
+**Tools:** Excel (Shapley Value Model)
+
+Applied the Shapley attribution model in Excel to assess the contribution of individual promotions for a pizza company's marketing campaign. Free delivery emerged as the single most impactful promotion, accounting for 43% of total conversion value. These findings directly informed recommendations on where to concentrate marketing spend for the strongest return on investment.
+
+---
+
+### Customer Churn Analysis
+**Telecommunications Company**
+**Tools:** Excel
+
+Analysed customer data to identify segments most at risk of leaving, uncovering a 40.61% churn rate among users on international plans. The analysis guided targeted retention strategies and service improvement recommendations, with a focus on directing resources towards the highest-impact customer groups.
+
+---
+
+### Financial Viability and Risk Analysis of Microprocessor Development
+**Transport for London Contract**
+**Tools:** Excel (Goal Seek), Palisade PrecisionTree
+
+Assessed the financial viability of developing a new microprocessor for a technology company pursuing a Transport for London contract. Used Palisade PrecisionTree for decision tree modelling and expected monetary value calculations, and Excel Goal Seek for indifference analysis, to identify a 26.5% R&D success probability as the investment breakeven point. The work produced a clear go/no-go decision framework alongside risk management recommendations.
+
+---
+
+### Sales Forecasting
+**Retail Clothing Company**
+**Tools:** Excel
+
+Constructed a regression model in Excel to forecast annual sales for a retail clothing company. The model identified holiday promotions and underlying time trends as the primary drivers of revenue growth, delivering practical recommendations on how to optimise promotion timing and improve the reliability of future sales forecasts.
+
+---
+
+### Supply Chain Optimisation
+**Manufacturing Company**
+**Tools:** Excel (Solver)
+
+Developed a linear programming model using Excel Solver to minimise procurement costs while satisfying production demand. The analysis identified limited availability of the largest bulk-sized components as the primary production constraint, with knock-on effects on cost efficiency and delivery schedules. Recommendations focused on supplier diversification and demand management to support growth.
+
+---
+
+### Rihanna's Reddit Digital Footprint
+**Tools:** Python (NLTK)
+
+Built a Python NLP pipeline to analyse 999 Reddit comments referencing Rihanna, extracting sentiment patterns and engagement signals to inform PR strategy. Half of all comments were positive, with activity peaking on Tuesdays. Authentic content was found to drive the strongest engagement, while negative sentiment was concentrated around fan demand for new music.
