@@ -1,6 +1,6 @@
 Hi! Welcome to Teniola's Github Project Repo!ᰔᩚ
 ---
-Recent ML Engineering Intern at a mobile game startup | MSc Data Science and Analytics | Based in London | Data Science, AI/ML and XAI
+Recent Data Science Intern at a mobile game startup | MSc Data Science and Analytics | Based in London | Data Science, AI/ML and XAI
 
 ---
 
